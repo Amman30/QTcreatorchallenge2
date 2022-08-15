@@ -2444,7 +2444,7 @@ void MainWindow::on_actionBold_triggered()
 
 void MainWindow::on_actionUnBold_triggered()
 {
-     ui->textBrowser->setFontWeight(QFont::Light);
+     ui->textBrowser->setFontWeight(QFont::Normal);
 }
 
 
